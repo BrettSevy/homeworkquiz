@@ -8,7 +8,7 @@ var choiceB = document.querySelector('#B');
 var choiceC = document.querySelector('#C');
 var choiceD = document.querySelector('#D');
 var buttons = document.querySelector("#choices");
-var score = document.querySelector("#score");//.textContent = ("Score " + (score + scoreVal));
+var score = document.querySelector("#score");
 var scoreVal= 0;
 var time = document.querySelector("time");
 
@@ -18,7 +18,7 @@ var time = document.querySelector("time");
 var questions = [
     {
         question : "what does 1 stand for?",
-        choiceA : "Correctthis is a test",
+        choiceA : "Correct this is a test",
         choiceB : "this is a test to see what happens",
         choiceD : "Wrong another sentance test",
         choiceC : "Wrong testing more sentance",
@@ -92,15 +92,16 @@ function checkanswer(event) {
     console.log(event.target.id);
     console.log(questions[runningQuestion].correct)
     if (event.target.id == questions[runningQuestion].correct){
-         
             scoreVal ++;
-          console.log ("answer is correct " +scoreVal);
+            document.querySelector("#score").textContent = ("answer is correct " +scoreVal + " points");
          }
         
     // else "Wrong answer"
+    else{
+        document.querySelector("#score").textContent = ("answer is wrong " +scoreVal + " points");
+    }
       
-
-    if (runningQuestion < lastQuestions){
+    if (runningQuestion <= lastQuestions){
         runningQuestion ++;
         renderQuestion();
     }

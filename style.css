@@ -1,13 +1,14 @@
 form{
         background-color: white
-        border: 1px solid #eceff1;
-        border-radius: 8px;
+        border: 0px solid #eceff1;
+        border-radius: 6px;
         box-shadow: rgba(100, 10, 100, 0.3) 0 8px 12px 4px, 
           rgba(90, 10, 90, 0.15) 0 8px 12px 4px;
         margin: 2%;
-        margin-top: 80px;
+        margin-left: 15%;
         padding: 20px;
-        width: 46%;
+        width: 40%;
+        
         overflow: hidden;
         position: relative;
         float: left;
@@ -16,7 +17,8 @@ form{
 
 #question{
 font-size: 50px;
-color: white;
+color: gold
+
 
 }
 
