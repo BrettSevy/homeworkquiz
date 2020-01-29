@@ -1,14 +1,12 @@
 form{
-        background-color: white
-        border: 0px solid #eceff1;
+        background-color: #000;
         border-radius: 6px;
-        box-shadow: rgba(100, 10, 100, 0.3) 0 8px 12px 4px, 
-          rgba(90, 10, 90, 0.15) 0 8px 12px 4px;
+        box-shadow: rgba(100, 10, 100, 0.3) 0 8px 12px 0px, 
+          rgba(90, 10, 90, 0.15) 0 8px 12px 0px;
         margin: 2%;
         margin-left: 15%;
         padding: 20px;
         width: 40%;
-        
         overflow: hidden;
         position: relative;
         float: left;

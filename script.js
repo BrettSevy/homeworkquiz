@@ -1,3 +1,9 @@
+//needs "start"
+//needs "timer"
+//needs 'scoreboard home/away time in the middle'
+//needs "scorecard after questions"
+
+
 
 //VARIABLES//
 var start = document.querySelector("start");
