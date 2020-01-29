@@ -1,0 +1,50 @@
+form{
+        background-color: white
+        border: 1px solid #eceff1;
+        border-radius: 8px;
+        box-shadow: rgba(100, 10, 100, 0.3) 0 8px 12px 4px, 
+          rgba(90, 10, 90, 0.15) 0 8px 12px 4px;
+        margin: 2%;
+        margin-top: 80px;
+        padding: 20px;
+        width: 46%;
+        overflow: hidden;
+        position: relative;
+        float: left;
+    
+}
+
+#question{
+font-size: 50px;
+color: white;
+
+}
+
+.choice{
+font-size: 28px;
+color: white
+
+}
+
+body{
+
+    /*background-image: url(assets/kobe.jpg);*/
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #000;
+    
+}
+
+button{
+  background-color: purple;
+  cursor: pointer;
+  margin: 30px
+  
+}
+
+#score{
+color: purple;
+font-weight: 600px;
+font-size: 28px;
+
+}
