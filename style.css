@@ -1,3 +1,8 @@
+*{
+  font-family: 'Permanent Marker', cursive;
+
+}
+
 form{
   background-color: #000;
   border-radius: 6px; 
@@ -35,6 +40,8 @@ body{
     background-position: top right;
     background-repeat: no-repeat;
     background-color: #000;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
 button{
